@@ -9,7 +9,7 @@ const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
     height: 1366,
-    width: 1366,
+    width: 2000,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
